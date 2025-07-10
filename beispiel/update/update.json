@@ -4,7 +4,7 @@
   "files": [
     {
       "filename": "programm.py",
-      "url": "https://github.com/StefanDraeger/Micropython-OTA-Update/edit/main/beispiel/update/files/programm.py"
+      "url": "https://raw.githubusercontent.com/StefanDraeger/Micropython-OTA-Update/main/beispiel/update/programm.py"
     }
   ],
   "description": "Neuer Funktionsumfang für das OTA-Update-System",
