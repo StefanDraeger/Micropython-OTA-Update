@@ -4,7 +4,7 @@
   "files": [
     {
       "filename": "main.py",
-      "url": "http://yourserver.local/files/main.py"
+      "url": "https://github.com/StefanDraeger/Micropython-OTA-Update/edit/main/beispiel/update/files/programm.py"
     }
   ],
   "description": "Neuer Funktionsumfang für das OTA-Update-System",
