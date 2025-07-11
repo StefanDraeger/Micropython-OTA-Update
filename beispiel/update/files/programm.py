@@ -1,4 +1,8 @@
 def start():
     print("Programm gestartet")
-    print("Hallo Update 1")
+    while True:
+        ledBlau.value(1)
+        time.sleep(0.5)
+        ledBlau.value(0)
+        time.sleep(0.5)
     print("-ENDE-")
