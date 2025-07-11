@@ -1,3 +1,8 @@
+import time
+import machine
+
+ledBlau = machine.Pin(2, machine.Pin.OUT)
+
 def start():
     print("Programm gestartet")
     while True:
