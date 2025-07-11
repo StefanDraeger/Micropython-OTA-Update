@@ -81,6 +81,13 @@ def download_files(file_list):
         except Exception as e:
             print(f"[FEHLER] Fehler beim Laden von {filename}:", e)
 
+def save_new_version(new_version):
+    try:
+        with open("version.json", "w") as f:
+            f.write(ujson.dumps({"version": new_version}))
+        print(f"[INFO] Neue Version {new_version} gespeichert.")
+    except Exception as e:
+        print("[FEHLER] Konnte version.json nicht schreiben:", e)
 
 # Beispielaufruf:
 json_url = "https://raw.githubusercontent.com/StefanDraeger/Micropython-OTA-Update/main/beispiel/update/update.json"
@@ -88,5 +95,9 @@ update_info = check_for_update(local_version, json_url)
 
 if update_info:
     download_files(update_info["files"])
+    save_new_version(update_info["version"])
+    print(f'{update_info["timestamp"]}: {update_info["description"]} – {update_info["author"]}')
+    time.sleep(2)
+    machine.reset()
 
 programm.start()
