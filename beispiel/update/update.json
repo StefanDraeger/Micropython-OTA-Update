@@ -1,13 +1,13 @@
 {
   "required_version": "1.0.0",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "files": [
     {
       "filename": "programm.py",
       "url": "https://raw.githubusercontent.com/StefanDraeger/Micropython-OTA-Update/main/beispiel/update/files/programm.py"
     }
   ],
-  "description": "blinken der blauen LED",
+  "description": "Wechselblinken zweier LEDs",
   "author": "Stefan Draeger",
-  "timestamp": "11.07.2025 07:30 Uhr"
+  "timestamp": "11.07.2025 08:20 Uhr"
 }
