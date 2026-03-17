@@ -14,5 +14,4 @@ def start():
         ledBlau.value(0)
         ledGruen.value(1)
         time.sleep(0.5)
-        print("Hallo Welt!")
     print("-ENDE-")
