@@ -3,7 +3,6 @@ import machine
 
 ledBlau = machine.Pin(21, machine.Pin.OUT)
 ledGruen = machine.Pin(22, machine.Pin.OUT)
-ledGelb =  machine.Pin(23, machine.Pin.OUT)
 
 def start():
     print("Programm gestartet")
@@ -15,5 +14,5 @@ def start():
         ledBlau.value(0)
         ledGruen.value(1)
         time.sleep(0.5)
-        ledGelb.toggle()
+        print("Hallo Welt!")
     print("-ENDE-")
