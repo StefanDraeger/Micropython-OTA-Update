@@ -1,8 +1,8 @@
 import time
 import machine
 
-ledBlau = machine.Pin(2, machine.Pin.OUT)
-ledGruen = machine.Pin(20, machine.Pin.OUT)
+ledBlau = machine.Pin(21, machine.Pin.OUT)
+ledGruen = machine.Pin(22, machine.Pin.OUT)
 
 def start():
     print("Programm gestartet")
